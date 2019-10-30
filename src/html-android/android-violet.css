@@ -1,0 +1,37 @@
+a {
+	color: #9933cc;
+}
+a:active {
+	background: #aa66cc;
+	outline-color: #aa66cc;
+}
+.mobile-header {
+	background: #aa66cc;
+	border-bottom-color: #9933cc;
+}
+.mobile-header-menu.active,
+.mobile-header-menu:active,
+.mobile-header-menu:focus,
+.mobile-header-menu:target {
+	background-color: #9933cc;
+}
+.mobile-header-parameter.active,
+.mobile-header-parameter:active,
+.mobile-header-parameter:focus,
+.mobile-header-parameter:target {
+	background-color: #9933cc;
+}
+.mobile-menu-section-item:active,
+.mobile-menu-section-item:focus,
+.mobile-menu-section-item:target {
+	background-color: #aa66cc;
+}
+.mobile-parameter-item:active,
+.mobile-parameter-item:focus,
+.mobile-parameter-item:target {
+	background-color: #aa66cc;
+}
+.mobile-tabs-item.active {
+	box-shadow: inset 0 -5px 0 #aa66cc;
+	border-bottom: #9933cc solid 2px;
+}
